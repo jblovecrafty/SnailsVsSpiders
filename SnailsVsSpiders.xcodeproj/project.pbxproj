@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37113358184E90C200117C86 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37113357184E90C200117C86 /* QuartzCore.framework */; };
 		37B6E3351846B39C006915BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B6E3341846B39C006915BC /* UIKit.framework */; };
 		37B6E3371846B39C006915BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B6E3361846B39C006915BC /* Foundation.framework */; };
 		37B6E3391846B39C006915BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B6E3381846B39C006915BC /* CoreGraphics.framework */; };
@@ -18,9 +19,25 @@
 		37B6E34B1846B39C006915BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E34A1846B39C006915BC /* Default-568h@2x.png */; };
 		37B6E34E1846B39C006915BC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E34C1846B39C006915BC /* MainStoryboard.storyboard */; };
 		37B6E3511846B39C006915BC /* CSC470ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E3501846B39C006915BC /* CSC470ViewController.m */; };
+		37B6E35E1846B428006915BC /* SpiderAndSnailBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E3581846B428006915BC /* SpiderAndSnailBackGround.png */; };
+		37B6E35F1846B428006915BC /* Spider.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E3591846B428006915BC /* Spider.png */; };
+		37B6E3601846B428006915BC /* Snail.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E35A1846B428006915BC /* Snail.png */; };
+		37B6E3611846B428006915BC /* MaggotBomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E35B1846B428006915BC /* MaggotBomb.png */; };
+		37B6E3621846B428006915BC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E35C1846B428006915BC /* background.png */; };
+		37B6E3631846B428006915BC /* AntRocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B6E35D1846B428006915BC /* AntRocket.png */; };
+		37B6E3661846B470006915BC /* CSC470_Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E3651846B470006915BC /* CSC470_Agent.m */; };
+		37B6E3691846BAF7006915BC /* CSC470_Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E3681846BAF7006915BC /* CSC470_Hero.m */; };
+		37B6E36C1846BC13006915BC /* CSC470_spider.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E36B1846BC13006915BC /* CSC470_spider.m */; };
+		37B6E36F1846BCCE006915BC /* CSC470_rocketAnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E36E1846BCCE006915BC /* CSC470_rocketAnt.m */; };
+		37B6E3721846BE8C006915BC /* CSC470_Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B6E3711846BE8C006915BC /* CSC470_Level.m */; };
+		37CBA2BE184AD89300DF6AC0 /* AntRocketDead.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CBA2BA184AD89300DF6AC0 /* AntRocketDead.png */; };
+		37CBA2BF184AD89300DF6AC0 /* MaggotBombDead.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CBA2BB184AD89300DF6AC0 /* MaggotBombDead.png */; };
+		37CBA2C0184AD89300DF6AC0 /* SpiderDead.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CBA2BC184AD89300DF6AC0 /* SpiderDead.png */; };
+		37CBA2C1184AD89300DF6AC0 /* SnailDead.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CBA2BD184AD89300DF6AC0 /* SnailDead.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37113357184E90C200117C86 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		37B6E3311846B39C006915BC /* SnailsVsSpiders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnailsVsSpiders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B6E3341846B39C006915BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37B6E3361846B39C006915BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +54,26 @@
 		37B6E34D1846B39C006915BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		37B6E34F1846B39C006915BC /* CSC470ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSC470ViewController.h; sourceTree = "<group>"; };
 		37B6E3501846B39C006915BC /* CSC470ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSC470ViewController.m; sourceTree = "<group>"; };
+		37B6E3581846B428006915BC /* SpiderAndSnailBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpiderAndSnailBackGround.png; sourceTree = "<group>"; };
+		37B6E3591846B428006915BC /* Spider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spider.png; sourceTree = "<group>"; };
+		37B6E35A1846B428006915BC /* Snail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snail.png; sourceTree = "<group>"; };
+		37B6E35B1846B428006915BC /* MaggotBomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaggotBomb.png; sourceTree = "<group>"; };
+		37B6E35C1846B428006915BC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		37B6E35D1846B428006915BC /* AntRocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AntRocket.png; sourceTree = "<group>"; };
+		37B6E3641846B470006915BC /* CSC470_Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSC470_Agent.h; sourceTree = "<group>"; };
+		37B6E3651846B470006915BC /* CSC470_Agent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSC470_Agent.m; sourceTree = "<group>"; };
+		37B6E3671846BAF7006915BC /* CSC470_Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSC470_Hero.h; sourceTree = "<group>"; };
+		37B6E3681846BAF7006915BC /* CSC470_Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSC470_Hero.m; sourceTree = "<group>"; };
+		37B6E36A1846BC13006915BC /* CSC470_spider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSC470_spider.h; sourceTree = "<group>"; };
+		37B6E36B1846BC13006915BC /* CSC470_spider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSC470_spider.m; sourceTree = "<group>"; };
+		37B6E36D1846BCCE006915BC /* CSC470_rocketAnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSC470_rocketAnt.h; sourceTree = "<group>"; };
+		37B6E36E1846BCCE006915BC /* CSC470_rocketAnt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSC470_rocketAnt.m; sourceTree = "<group>"; };
+		37B6E3701846BE8C006915BC /* CSC470_Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSC470_Level.h; sourceTree = "<group>"; };
+		37B6E3711846BE8C006915BC /* CSC470_Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSC470_Level.m; sourceTree = "<group>"; };
+		37CBA2BA184AD89300DF6AC0 /* AntRocketDead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AntRocketDead.png; sourceTree = "<group>"; };
+		37CBA2BB184AD89300DF6AC0 /* MaggotBombDead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaggotBombDead.png; sourceTree = "<group>"; };
+		37CBA2BC184AD89300DF6AC0 /* SpiderDead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpiderDead.png; sourceTree = "<group>"; };
+		37CBA2BD184AD89300DF6AC0 /* SnailDead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnailDead.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37113358184E90C200117C86 /* QuartzCore.framework in Frameworks */,
 				37B6E3351846B39C006915BC /* UIKit.framework in Frameworks */,
 				37B6E3371846B39C006915BC /* Foundation.framework in Frameworks */,
 				37B6E3391846B39C006915BC /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +111,7 @@
 		37B6E3331846B39C006915BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37113357184E90C200117C86 /* QuartzCore.framework */,
 				37B6E3341846B39C006915BC /* UIKit.framework */,
 				37B6E3361846B39C006915BC /* Foundation.framework */,
 				37B6E3381846B39C006915BC /* CoreGraphics.framework */,
@@ -86,6 +125,16 @@
 				37B6E3431846B39C006915BC /* CSC470AppDelegate.h */,
 				37B6E3441846B39C006915BC /* CSC470AppDelegate.m */,
 				37B6E34C1846B39C006915BC /* MainStoryboard.storyboard */,
+				37B6E3701846BE8C006915BC /* CSC470_Level.h */,
+				37B6E3711846BE8C006915BC /* CSC470_Level.m */,
+				37B6E3641846B470006915BC /* CSC470_Agent.h */,
+				37B6E3651846B470006915BC /* CSC470_Agent.m */,
+				37B6E3671846BAF7006915BC /* CSC470_Hero.h */,
+				37B6E3681846BAF7006915BC /* CSC470_Hero.m */,
+				37B6E36A1846BC13006915BC /* CSC470_spider.h */,
+				37B6E36B1846BC13006915BC /* CSC470_spider.m */,
+				37B6E36D1846BCCE006915BC /* CSC470_rocketAnt.h */,
+				37B6E36E1846BCCE006915BC /* CSC470_rocketAnt.m */,
 				37B6E34F1846B39C006915BC /* CSC470ViewController.h */,
 				37B6E3501846B39C006915BC /* CSC470ViewController.m */,
 				37B6E33B1846B39C006915BC /* Supporting Files */,
@@ -96,6 +145,16 @@
 		37B6E33B1846B39C006915BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37CBA2BA184AD89300DF6AC0 /* AntRocketDead.png */,
+				37CBA2BB184AD89300DF6AC0 /* MaggotBombDead.png */,
+				37CBA2BC184AD89300DF6AC0 /* SpiderDead.png */,
+				37CBA2BD184AD89300DF6AC0 /* SnailDead.png */,
+				37B6E3581846B428006915BC /* SpiderAndSnailBackGround.png */,
+				37B6E3591846B428006915BC /* Spider.png */,
+				37B6E35A1846B428006915BC /* Snail.png */,
+				37B6E35B1846B428006915BC /* MaggotBomb.png */,
+				37B6E35C1846B428006915BC /* background.png */,
+				37B6E35D1846B428006915BC /* AntRocket.png */,
 				37B6E33C1846B39C006915BC /* SnailsVsSpiders-Info.plist */,
 				37B6E33D1846B39C006915BC /* InfoPlist.strings */,
 				37B6E3401846B39C006915BC /* main.m */,
@@ -164,6 +223,16 @@
 				37B6E3491846B39C006915BC /* Default@2x.png in Resources */,
 				37B6E34B1846B39C006915BC /* Default-568h@2x.png in Resources */,
 				37B6E34E1846B39C006915BC /* MainStoryboard.storyboard in Resources */,
+				37B6E35E1846B428006915BC /* SpiderAndSnailBackGround.png in Resources */,
+				37B6E35F1846B428006915BC /* Spider.png in Resources */,
+				37B6E3601846B428006915BC /* Snail.png in Resources */,
+				37B6E3611846B428006915BC /* MaggotBomb.png in Resources */,
+				37B6E3621846B428006915BC /* background.png in Resources */,
+				37B6E3631846B428006915BC /* AntRocket.png in Resources */,
+				37CBA2BE184AD89300DF6AC0 /* AntRocketDead.png in Resources */,
+				37CBA2BF184AD89300DF6AC0 /* MaggotBombDead.png in Resources */,
+				37CBA2C0184AD89300DF6AC0 /* SpiderDead.png in Resources */,
+				37CBA2C1184AD89300DF6AC0 /* SnailDead.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +246,11 @@
 				37B6E3411846B39C006915BC /* main.m in Sources */,
 				37B6E3451846B39C006915BC /* CSC470AppDelegate.m in Sources */,
 				37B6E3511846B39C006915BC /* CSC470ViewController.m in Sources */,
+				37B6E3661846B470006915BC /* CSC470_Agent.m in Sources */,
+				37B6E3691846BAF7006915BC /* CSC470_Hero.m in Sources */,
+				37B6E36C1846BC13006915BC /* CSC470_spider.m in Sources */,
+				37B6E36F1846BCCE006915BC /* CSC470_rocketAnt.m in Sources */,
+				37B6E3721846BE8C006915BC /* CSC470_Level.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +373,7 @@
 				37B6E3561846B39C006915BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

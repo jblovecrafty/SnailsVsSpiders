@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QuartzCore/CADisplayLink.h"
+#import "CSC470_Level.h"
+
+
 
 @interface CSC470ViewController : UIViewController
+{
+    CADisplayLink *gameTimer;
+}
 
+@property(nonatomic) CGFloat screenWidth;
+@property(nonatomic) CGFloat screenHeight;
+
+
+@property (weak, nonatomic) IBOutlet CSC470_Level *mainContextView;
 @end
